@@ -22,5 +22,9 @@
     <ProjectReference Include="..\FoxLearn.SqlServer\FoxLearn.SqlServer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 
 </Project>

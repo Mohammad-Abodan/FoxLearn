@@ -92,6 +92,7 @@ namespace FoxLearn
             });
 
             services.AddScoped<ISubjectRepository, SubjectRepository>();
+            services.AddScoped<IFileRepository, FileRepository>();
 
         }
 
